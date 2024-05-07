@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:neumorphic_ui/neumorphic_ui.dart';
+import 'package:walletui/screen/graph_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -45,12 +46,17 @@ class _HomeScreenState extends State<HomeScreen> {
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     CircleAvatar(
-                      radius: 30,
+                      radius: 25,
                         backgroundColor: Colors.black54,
                         child: Icon(Icons.add,color: Colors.white,size: 25,),
                     ),
                     Text('Shedule a new payment \n on your account ',style: TextStyle(fontSize: 14,fontWeight: FontWeight.bold),),
-                    Icon(Icons.line_style,size: 80,color: Colors.white,)
+                    InkWell(
+                      onTap: (){
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context)=>GraphScreen()));
+                      },
+                        child: Icon(Icons.line_style,size: 80,color: Colors.white,))
                   ],
                 ),
               ),
@@ -75,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                            mainAxisAlignment: MainAxisAlignment.spaceAround,
                            children: [
                              CircleAvatar(
-                               radius: 30,
+                               radius: 25,
                                backgroundColor: Colors.black54,
                                child: Icon(Icons.bookmarks_rounded,color: Colors.white,size: 25,),
                              ),

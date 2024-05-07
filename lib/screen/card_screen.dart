@@ -37,8 +37,8 @@ class _CardScreenState extends State<CardScreen> {
 
                       height: size.height/2,
                       width: size.width,
-                      child: Center(child: Text('Card $index ',style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),)),
-                      color: Colors.black26,
+                      child: Image.asset('assets/images/download.jpg')
+
                     );
                   })),
 

@@ -35,7 +35,7 @@ class _DashBoardScreenState extends State<DashBoardScreen> {
       ),
       PersistentBottomNavBarItem(
         icon: Icon(Icons.add,color: Colors.white,),
-         activeColorPrimary: Colors.green,
+         activeColorPrimary: Colors.black54,
         inactiveIcon:Icon(Icons.add,color: Colors.white,),
       ),
       PersistentBottomNavBarItem(
