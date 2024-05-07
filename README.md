@@ -1,16 +1,15 @@
 # walletui
 
-A new Flutter project.
+Wallet UI is a new Flutter project.
+It is a beutiful wallet application ui .
+Here are some packeges additing for look good.
 
-## Getting Started
+1 ) persistent_bottom_nav_bar 
+2 ) neumorphic_ui 
+3 )  fl_cha 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+And create some screens 
+![Screenshot_2024-05-07-18-40-54-00_e82e3908310fe5e4e1e0604fb82ce0ae](https://github.com/ARAFAT2000/walletui/assets/99494874/a9611d12-8a39-42e3-ae84-ece31de37545)
+![Screenshot_2024-05-07-18-41-01-32_e82e3908310fe5e4e1e0604fb82ce0ae](https://github.com/ARAFAT2000/walletui/assets/99494874/12f04163-f8b4-4f33-b43d-ddea65680702)
+![Screenshot_2024-05-07-18-41-12-50_e82e3908310fe5e4e1e0604fb82ce0ae](https://github.com/ARAFAT2000/walletui/assets/99494874/2e878cf6-228c-448b-9eb2-a47af059cb9d)
+![Screenshot_2024-05-07-18-41-18-10_e82e3908310fe5e4e1e0604fb82ce0ae](https://github.com/ARAFAT2000/walletui/assets/99494874/cda8f665-dddf-48b8-b76e-881c951ebb53)
